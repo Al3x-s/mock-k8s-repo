@@ -22,6 +22,18 @@
       "-m",
       "intern_repo"
     ]
+  },
+  "test_name": {
+    "name": "test_name",
+    "image": {
+      "image_name": "dabster",
+      "tag": "v.1-4-g5df15c5",
+      "pullpolicy": "undefined"
+    },
+    "rpc_args": [
+      "-m",
+      "intern_repo"
+    ],
+    "port": "undefined"
   }
-
 }
