@@ -1,0 +1,27 @@
+{
+  "test1": {
+    "name": "test1",
+    "image": {
+      "image_name": "/dagster",
+      "tag": "v.9",
+      "pullpolicy": "Always"
+    },
+    "rpcArgs": [
+      "-m",
+      "workspace"
+    ]
+  },
+  "xyz": {
+    "name": "xyz",
+    "image": {
+      "image_name": "dagster",
+      "tag": "v.15",
+      "pullpolicy": "Always"
+    },
+    "rpcArgs": [
+      "-m",
+      "intern_repo"
+    ]
+  }
+
+}
